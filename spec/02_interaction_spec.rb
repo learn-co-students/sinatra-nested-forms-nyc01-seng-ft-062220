@@ -1,4 +1,4 @@
-context "Filling in the Form" do
+=begin context "Filling in the Form" do
   before do
     visit "/new"
   end
@@ -25,3 +25,4 @@ context "Filling in the Form" do
     expect(page).to have_content("treasure map")
   end
 end
+=end 
